@@ -1,6 +1,9 @@
 
 import { useEffect, useState } from 'react'
 import './App.css'
+import Deneme from './Deneme';
+import Deneme1 from './deneme1';
+import Deneme2 from './Deneme2';
 
 function App() {
 
@@ -38,6 +41,10 @@ function App() {
      <div>
      <button onClick={() => setLastName("Çelik")}>Soyismi Değiştir</button>
      </div>
+
+     <Deneme />
+     <Deneme1 />
+     <Deneme2 />
     </>
   )
 }
